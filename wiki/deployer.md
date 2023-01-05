@@ -4,7 +4,7 @@ The deployer for flyboat is a custom FastAPI application [zip-deployer](https://
 
 ### Getting the secret key
 
-The secret key can be gotten by asking @biishop. The secret key is also provided as the Github Actions secret `DEPLOY_KEY`. 
+The secret key can be gotten by asking @biiishop. The secret key is also provided as the Github Actions secret `DEPLOY_KEY`. 
 
 ### Updating zip-deployer to the latest version
 The zip-deployer directory is stored under `/srv/zip-deployer`. To pull in the latest commit, run:
