@@ -19,5 +19,5 @@ There is a shell script (`redeploy.sh`) that will rebuild and recreate the Docke
 sudo docker build -t zip-deployer .
 sudo docker container stop zip-deployer
 sudo docker container rm zip-deployer
-sudo docker run --name zip-deployer --detach -p 8020:8000 -v /srv/staging:/directory zip-deployer
+sudo docker run --name zip-deployer --detach -p 8020:8000 -v /srv/staging:/directory --restart unless-stopped zip-deployer
 ```
