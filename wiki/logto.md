@@ -4,7 +4,7 @@ Logto is deployed via [docker](docker).
 
 ### Updating to the latest version
 
-```
+```shell
 sudo docker pull ghcr.io/logto-io/logto:prerelease
 sudo docker container stop logto
 sudo docker container rm logto
